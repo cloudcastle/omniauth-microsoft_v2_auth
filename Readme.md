@@ -55,5 +55,5 @@ end
         ```
 4. Configure permissions for application (App registrations > YOUR APP > Settings > Required permissions):
     - In order to call Microsoft Graph API with `me/memberOf` request, add `Read directory data` Application permission in Microsoft Graph section:
-    ![Azure Permissions](http://take.ms/W5LLH)
+    ![Azure Permissions](microsoft_azure_app_permissions.png)
     - Make sure that a user with administrator role consent to new permissions.
